@@ -2,6 +2,7 @@ package com.example.myapplication1;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -26,7 +27,6 @@ private EditText etWelcome;
     }
     public void finishApp(View view){
         finish();
-        int status;
-        System.exit(status:0);
+        System.exit(0);
     }
 }
